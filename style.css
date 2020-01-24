@@ -1,0 +1,103 @@
+html {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+}
+
+.panel {
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px gray;
+}
+
+.scores {
+    display: flex;
+}
+
+.score {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score h1 {
+    font-weight: 300;
+}
+
+.life-bar {
+    width: 80%;
+    height: 20px;
+    border: 1px solid #AAA;
+}
+
+.life-bar .life {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: green;
+}
+
+.danger{
+
+}
+
+.life-bar .life.danger {
+    background-color: red;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    fonte-size: 1.3rem;
+    font-weight: 600;
+}
+
+.result .win {
+    color: green;
+}
+
+.result .lose {
+    color: red;
+}
+
+
+/* Area dos botoes */
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 5px 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    
+}
+
+.new-game {
+    background-color: darkblue;
+    color: white;
+}
+
+.attack {
+    background-color: red;
+    color: white;
+}
+
+.especial-attack {
+    background-color: orange;
+    color: black;
+}
+
+.heal {
+    background-color: lightgreen;
+    color: white;
+}
