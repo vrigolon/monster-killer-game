@@ -29,7 +29,7 @@ new Vue({
                 } else this.hurt('monsterLife', 3, 7, false)
             }
             if (!this.hasResult) {
-            this.hurt('playerLife', 10, 17, false)
+            this.hurt('playerLife', 6, 15, false)
             }           
 
         },
